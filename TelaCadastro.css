@@ -1,0 +1,52 @@
+.cadastro-page {
+    min-height: 100vh;
+    background: #89CFF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cadastro-card {
+    width: 450px;
+    max-width: 100%;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #0003;
+    text-align: center;
+}
+
+.cadastro-card h1 {
+    color: #1c3399;
+    margin-bottom: 20px;
+}
+
+.cadastro-card h2 {
+    margin-bottom: 20px;
+}
+
+.cadastro-card input {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.cadastro-card button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    background: #1c3399;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0 20px;
+}
+
+.cadastro-card a {
+    color: #1c3399;
+    font-weight: bold;
+    cursor: pointer;
+}
